@@ -1,0 +1,54 @@
+{
+"editor.tabSize": 8,
+"editor.detectIndentation": false,
+"python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3",
+"editor.suggestSelection": "first",
+"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+"deepcode.yesWelcomeNotification": false,
+"editor.fontLigatures": true,
+"vim.easymotion": true,
+"vim.incsearch": true,
+"vim.useSystemClipboard": true,
+"vim.useCtrlKeys": true,
+"vim.hlsearch": true,
+"vim.insertModeKeyBindings": [
+    {
+    "before": ["j", "j"],
+    "after": ["<Esc>"]
+    }
+],
+"vim.normalModeKeyBindingsNonRecursive": [
+    {
+    "before": ["<leader>", "d"],
+    "after": ["d", "d"]
+    },
+    {
+    "before": ["<C-n>"],
+    "commands": [":nohl"]
+    }
+],
+"vim.leader": "<space>",
+"vim.handleKeys": {
+},
+"vim.timeout": 180,
+"editor.fontSize": 18,
+"debug.console.fontSize": 16,
+"markdown.preview.fontSize": 16,
+"terminal.integrated.fontSize": 16,
+"workbench.colorTheme": "Solarized Light",
+"notebook.kernelProviderAssociations": [
+
+],
+"vim.foldfix": true,
+"vim.highlightedyank.enable": true,
+"cmake.configureOnOpen": true,
+"window.zoomLevel": 0,
+"workbench.editor.enablePreview": false,
+"editor.rulers": [
+    
+    80
+],
+"editor.wordWrap": "bounded",
+"editor.minimap.scale": 2,
+"editor.minimap.maxColumn": 70
+}
